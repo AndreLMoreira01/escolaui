@@ -1,14 +1,13 @@
+
 <mat-toolbar color="primary">
-  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+  <button mat-button [matMenuTriggerFor]="menu" class="menu">
     <mat-icon>menu</mat-icon>
   </button>
-  <span>.: Etec Cidade Do Livro :.</span>
-  <span class="example-spacer"></span>
-  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-    <mat-icon>favorite</mat-icon>
-  </button>
-  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-    <mat-icon>share</mat-icon>
-  </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item >Alunos</button>
+      <button mat-menu-item >Cursos</button>
+    </mat-menu>
+
+  <span>Etec Cidade do Livro</span>
 </mat-toolbar>
 <router-outlet></router-outlet>
