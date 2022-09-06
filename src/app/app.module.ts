@@ -10,10 +10,6 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatTableModule} from '@angular/material/table';
 
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent
