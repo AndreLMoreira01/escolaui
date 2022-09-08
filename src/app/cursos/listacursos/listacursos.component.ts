@@ -10,12 +10,18 @@ import { Curso } from '../../core/model';
 export class ListacursosComponent implements OnInit {
 
   cursos: Curso[] = [
+
     {id: 1, nomecurso: 'Desenvolvimento de Sistemas'},
     {id: 2, nomecurso: 'Logística'},
     {id: 3, nomecurso: 'Administração'},
     {id: 4, nomecurso: 'Recursos Humanos'},
   ];
   displayedColumns = ['id', 'nomecurso'];
+
+    {id: 1, nomecurso: 'Desenvolvimento de Sistemas'}
+  ];
+  displayColumns = ['nomecurso'];
+
 
   constructor() { }
 
