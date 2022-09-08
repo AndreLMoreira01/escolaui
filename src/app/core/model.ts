@@ -6,5 +6,4 @@ export interface Curso{
 export interface Aluno{
     id: number;
     nomealuno: string;
-    // curso = new Curso();
     }
