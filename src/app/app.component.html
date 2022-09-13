@@ -1,12 +1,13 @@
-<mat-toolbar color="primary">
+<mat-toolbar class="toolbar">
   <button mat-button [matMenuTriggerFor]="menu" class="menu">
     <mat-icon>menu</mat-icon>
   </button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item  routerLink="../app/alunos/alunos/alunos.component.html">Alunos</button>
-      <button mat-menu-item routerLink="../app/alunos/alunos/alunos.component.html">Cursos</button>
+      <button mat-menu-item [routerLink]="['/alunos']" routerLinkActive="router-link-active"  >Alunos</button>
+      <button mat-menu-item [routerLink]="['/cursos']" routerLinkActive="router-link-active" >Cursos</button>
     </mat-menu>
 
   <span>Etec Cidade do Livro</span>
 </mat-toolbar>
 <router-outlet></router-outlet>
+

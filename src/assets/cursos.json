@@ -1,0 +1,27 @@
+[
+
+  {
+    "id": "1", "nomecurso": "Engenharia de Computação"
+  },
+
+  {
+    "id": "2", "nomecurso": "Logistica"
+  },
+
+  {
+    "id": "3", "nomecurso": "Administração"
+  },
+
+  {
+    "id": "4", "nomecurso": "Marketing"
+  },
+
+  {
+    "id": "5", "nomecurso": "Química"
+  },
+
+  {
+    "id": "6", "nomecurso": "Edificações"
+  }
+
+]
